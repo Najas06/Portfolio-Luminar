@@ -17,6 +17,10 @@ const Indroduction = () => {
   <div class="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
   <p class="z-10">Connect Me</p>
 </button>
+<div className='flex mt-5'>
+  <a href="https://github.com/Najas06" className='decoration-none me-4 text-3xl'><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/najas-nazar-119872288/" className='decoration-none me-4 text-3xl'><i class="fa-brands fa-linkedin"></i></a>
+  </div>
         </div>
         <div>
             <img src={Photo} alt="" width={450}/>
