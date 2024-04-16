@@ -2,6 +2,7 @@
 import About from './components/About'
 import Header from './components/Header'
 import Indroduction from './components/Indroduction'
+import Projects from './components/Projects'
 import Skill from './components/Skill'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Indroduction/>
       <About/>
       <Skill/>
-      <h1>Projects</h1>
+      <Projects/>
     </>
   )
 }
